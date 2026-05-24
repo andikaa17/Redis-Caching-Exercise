@@ -154,7 +154,7 @@ Cache sebaiknya **tidak** digunakan ketika:
 
 ## Penjelasan: Third Call After 5 Minutes
 
-Setelah 5 menit, cache akan **expired** (terhapus otomatis oleh Redis). Sehingga sistem harus memanggil API lagi dan waktu respons akan kembali lambat sekitar 2 detik — sama seperti first call.
+Setelah 5 menit, cache akan **expired** (terhapus otomatis oleh Redis). Sehingga sistem harus memanggil API lagi dan waktu respons akan kembali lambat sekitar 2 detik sama seperti first call.
 
 ---
 
