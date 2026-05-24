@@ -90,7 +90,7 @@ Perintah yang dijalankan:
 docker compose ps
 ```
 
-![Status Container Docker](image.png)
+![Status Container Docker](Dokumentasi/dockercomposeps.png)
 
 ### 3.2 Test Ping Redis
 
@@ -100,7 +100,7 @@ Perintah yang dijalankan:
 docker compose exec redis redis-cli ping
 ```
 
-![Test Ping Redis](image-1.png)
+![Test Ping Redis](Dokumentasi/redis_ping.png)
 
 ### 3.3 Hasil Test Cache
 
@@ -110,7 +110,7 @@ Perintah yang dijalankan:
 docker compose exec app python test_cache.py
 ```
 
-![Hasil Test Cache](image-2.png)
+![Hasil Test Cache](Dokumentasi/test_cache.png)
 
 ### 3.4 Verifikasi Data di Redis
 
@@ -124,7 +124,7 @@ TTL weather:jakarta
 exit
 ```
 
-![Verifikasi Data di Redis](image-3.png)
+![Verifikasi Data di Redis](Dokumentasi/redis_cli.png)
 
 ---
 
