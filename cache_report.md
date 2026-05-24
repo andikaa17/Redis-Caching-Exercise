@@ -160,4 +160,4 @@ Setelah 5 menit, cache akan **expired** (terhapus otomatis oleh Redis). Sehingga
 
 ## Kesimpulan
 
-Implementasi caching dengan Redis berhasil mempercepat response time dari **2.02 detik** menjadi **0.00 detik**. Redis mudah diimplementasikan dengan perintah `GET`, `SET`, dan `EXPIRE`. Cache sangat berguna untuk data yang tidak sering berubah, namun tidak cocok untuk data real-time atau data sensitif.
+Implementasi caching dengan Redis berhasil mempercepat response time dari **2.00 detik** menjadi **0.00 detik**. Redis mudah diimplementasikan dengan perintah `GET`, `SET`, dan `EXPIRE`. Cache sangat berguna untuk data yang tidak sering berubah, namun tidak cocok untuk data real-time atau data sensitif.
